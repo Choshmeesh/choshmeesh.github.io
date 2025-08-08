@@ -1,0 +1,47 @@
+body {
+  font-family: system-ui;
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+  /* ... previous background-image ... */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* ... previous background-image and background-clip ... */
+  color: transparent; /* Or -webkit-text-fill-color: transparent; */
+
+  /* ... previous background-image and background-clip ... */
+  color: transparent; /* Or -webkit-text-fill-color: transparent; */
+
+  /* ... previous styles ... */
+  background-size: 50% 100%; /* Make the background wider than the text */
+  animation: rainbow-animation 5s linear infinite; /* Define the animation */
+}
+
+@keyframes rainbow-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+iframe {
+  width: 45vw;
+  height: 25vw;
+}
