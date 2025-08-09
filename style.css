@@ -1,5 +1,5 @@
 body {
-  font-family: system-ui;
+  font-family: Arial, Helvetica, system-ui;
   background: #000000;
   color: white;
   text-align: center;
@@ -39,9 +39,4 @@ body {
   100% {
     background-position: 100% 50%;
   }
-}
-
-iframe {
-  width: 45vw;
-  height: 25vw;
 }
