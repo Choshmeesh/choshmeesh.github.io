@@ -42,5 +42,7 @@ body {
 }
 
 #snakerDiv{
-
+  padding:150%;
+  border:150%;
+  margin:150%;
 }
