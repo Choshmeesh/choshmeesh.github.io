@@ -42,7 +42,9 @@ body {
 }
 
 #snakerDiv{
-  padding:300%;
-  border:300%;
-  margin:300%;
+  width:60vw;
+  /*height:;*/
+  padding:300px;
+  border:300px;
+  margin:300px;
 }
