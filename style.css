@@ -42,10 +42,9 @@ body {
 }
 /*
 #snakerDiv{
-  width:60vw;
-  /*height:;*/
-  padding:50px;
-  border:50px;
-  margin:50px;
+width:100%; 
+height:500px; 
+border:0; 
+overflow:hidden;
 }
 */
